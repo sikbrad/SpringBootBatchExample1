@@ -1,2 +1,4 @@
 .project
 .settings/
+test-repo/target/
+*.classpath

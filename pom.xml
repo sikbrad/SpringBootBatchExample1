@@ -11,4 +11,7 @@
   <packaging>pom</packaging>
   <name>gqshop-maven-example</name>
   <description>gqshop-maven-example-7 thing</description>
+  <modules>
+  	<module>test-repo</module>
+  </modules>
 </project>
