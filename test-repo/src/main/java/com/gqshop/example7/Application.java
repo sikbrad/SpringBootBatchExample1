@@ -1,12 +1,13 @@
 package com.gqshop.example7;
 
-import java.util.Arrays;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+
+import com.gqshop.comm.CommThing;
+import com.gqshop.comm.CommThing2;
 
 @SpringBootApplication
 public class Application {
@@ -28,7 +29,13 @@ public class Application {
 //			}
 			
 			System.out.println("main called");
+			
+			CommThing comm = new CommThing();
+			System.out.println(comm.aaa);
+					
 
+			CommThing2 comm2 = new CommThing2();
+			System.out.println(comm2.aaa);
 		};
 	}
 
